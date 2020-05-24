@@ -263,7 +263,7 @@ function sixthCard() {
     buttonThree.style.display = "none";
     buttonFour.style.display = "none";
     answerCheck.style.display = "none";
-    resultText.innerHTML =  "Final Score:  "  + score ;
+    resultText.innerHTML =  "Final Score:  "  + score + "/100" ;
     resultForm.style.display = "contents"
     timerElement.innerHTML = "Time: 0";
     buttonSubmit.style.display = "contents"
