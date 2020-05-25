@@ -283,6 +283,7 @@ function sixthCard() {
                 clearInterval(timer);
                 timerElement.innerHTML = "Time: ";
                 sixthCard();
+		alert("Time is up!");
             }
         }, 1000);
     }
